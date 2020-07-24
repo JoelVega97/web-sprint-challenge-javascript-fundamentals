@@ -14,15 +14,15 @@ class cuboidMaker{
   }
 }
 
-let cube = new cuboidMaker({
+let cuboidTwo = new cuboidMaker({
     length:4,
     width:5,
     height:5
   })
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-// console.log(cube.volume()); // 100
-// console.log(cube.surfaceArea()); // 130
+// console.log(cuboidTwo.volume()); // 100
+// console.log(cuboidTwo.surfaceArea()); // 130
 
 //DONE ^^
 

@@ -90,17 +90,11 @@ function consume(a,b,cb){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-function add(a,b){
-  return a+b
-}
+const add = (a,b) => a+b
 
-function multiply(a,b){
-  return a*b
-}
+const multiply = (a,b) => a*b
 
-function greeting(a,b){
-  return `Hello ${a} ${b}, nice to meet you!`
-}
+const greeting = (a,b) => `Hello ${a} ${b}, nice to meet you!`
 
 //DONE ^^
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
@@ -109,7 +103,7 @@ function greeting(a,b){
 // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
-
+//DONE ^^
 
 /*
 
