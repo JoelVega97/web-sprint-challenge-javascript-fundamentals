@@ -26,14 +26,29 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.map returns a new array without manipulating OG,used for converting data,needs the return keyword
+
+.forEach, must iterate through every zoo in an array without stopping,.forEach does not return a new array,return statement is optional
+ 
 
 2. Explain the difference between a callback and a higher order function.
 
+HOF is using the callback function as a parameter/argument and the callback would be the function that would be invoked by the HOF
+
 3. What is closure?
 
-4. Describe the four rules of the 'this' keyword.
+A function within a function
+
+4. Describe the four rules of the 'this' keyword. 
+
+  1. New makes the this keyword look for things that have this in them when it is used in a constructor
+  2. Implicit where the this keyword points to whatever is being called on by a function
+  3. Explicit where it uses call, bind, and apply.
+  4. Lastly as a function call where it is the global object with strict mode off and returns undefined when strict mode is on.
 
 5. Why do we need super() in an extended class?
+
+super is needed because it's what draws the attributes from the whatever the subclass is extending from.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
